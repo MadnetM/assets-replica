@@ -9,7 +9,7 @@ jobs:
       with:
         save_raw_stats: true
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
